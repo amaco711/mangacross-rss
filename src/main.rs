@@ -9,7 +9,7 @@ use crate::mangacross::MangaCrossComic;
 
 mod mangacross;
 
-const TARGETS: [&str; 2] = ["yabai", "negasuki"];
+const TARGETS: [&str; 2] = ["yabai", "negasuki", "shiomai"];
 
 #[tokio::main]
 async fn main() -> eyre::Result<()> {
